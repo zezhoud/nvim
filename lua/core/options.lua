@@ -30,6 +30,9 @@ opt.splitbelow = true
 opt.ignorecase = true
 opt.smartcase = true
 
+-- 光标移动预留5行
+opt.scrolloff = 5
+
 -- 外观
 opt.termguicolors = true
 opt.signcolumn = "yes"
