@@ -59,3 +59,6 @@ keymap.set("n", "<leader>ss", ":setlocal spell!<CR>")
 -- 切换buffer
 keymap.set("n", "<C-L>", ":bnext<CR>")
 keymap.set("n", "<C-H>", ":bprevious<CR>")
+
+-- ---------- 插件 ---------- ---
+keymap.set("n", "<leader>f", ":NvimTreeToggle<CR>")
